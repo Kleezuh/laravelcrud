@@ -34,6 +34,13 @@ class BookSeeder extends Seeder
             'price'=>'109.99',
             'id_user'=>'2'
         ]);
+
+        $book->create([
+            'title'=> 'Harry Potter e a Pedra Filosofal',
+            'pages'=>'220 ',
+            'price'=>'119.99',
+            'id_user'=>'1'
+        ]);
         
     }
 }
