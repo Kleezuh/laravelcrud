@@ -36,7 +36,7 @@ class BookSeeder extends Seeder
         ]);
 
         $book->create([
-            'title'=> 'Harry Potter e a Pedra Filosofal',
+            'title'=> 'Harry Potter e a Pedra Filosofale',
             'pages'=>'220 ',
             'price'=>'119.99',
             'id_user'=>'1'
